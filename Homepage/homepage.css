@@ -47,3 +47,21 @@
 .logo_container h1 span{
     font-weight: 800;
 }
+
+.profile_pic {
+    float: right;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-top: 25px solid white;
+    border-left: 25px solid white;
+    border-bottom: 25px solid white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    bottom: 45px;
+    left: 85px;
+}
