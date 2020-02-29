@@ -16,7 +16,7 @@
     width: 1000px;
     height: 100%;
     margin:black;
-    margin: 0 auto;
+    margin: 0;
     background-color:black;
 }
 
@@ -77,8 +77,16 @@
 }
 
 .container {
+    margin: 0;
     width: 100vw;
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr;
+}
 
+.leaderboards-container {
+    background-color: #989898;
+}
+
+.feed-container { 
+    background-color: #e5e5e5; 
 }
