@@ -1,4 +1,9 @@
 /* Styling for the leaderboard container */
+.container-fluid { 
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+
 .leaderboard_container {
     /* position: absolute;
     width: 425px; */
@@ -38,11 +43,25 @@
 }
 
 /* Styling for the feed container */
-.feed-container {
+.quote_container {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px; 
+    position: relative; 
+}
 
+.quote_container h3 { 
+    font-weight: 700; 
+}
+
+.quote_author { 
+    position: absolute; 
+    right: 25px; 
+    bottom: 15px; 
 }
 
 /* Styling for the goals container */
-.goals-container {
+.goals_container {
 
 }
