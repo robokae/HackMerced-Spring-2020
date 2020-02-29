@@ -23,12 +23,12 @@
 .logo_container{
     margin: auto;
     margin: orange;
-    width: 160px;
+    width: 180px;
     height: 60px;
     background: orange;
     border-radius: 50px;
     position: relative; 
-    top: 7px;
+    top: 9px;
 }
 
 .logo_container h1{
@@ -37,11 +37,11 @@
     display: table-cell;
     vertical-align: middle;
     font-family: 'Pacifico';
-    font-size: 31px;
+    font-size: 32px;
     font-weight: 200;
     position: relative; 
     top: 3px;
-    left: 12px;
+    left: 22px;
 }
 
 .logo_container h1 span{
@@ -50,13 +50,13 @@
 
 .profile_pic {
     float: right;
-    color: white;
+    color: yellow;
     width: 0px;
     height: 0px;
     border-right: 25px solid transparent;
-    border-top: 25px solid white;
-    border-left: 25px solid white;
-    border-bottom: 25px solid white;
+    border-top: 25px solid yellow;
+    border-left: 25px solid yellow;
+    border-bottom: 25px solid yellow;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -64,4 +64,14 @@
     position: relative;
     bottom: 45px;
     left: 85px;
+}
+
+.nav_button {
+    float: right;
+    width: 47px;
+    height: 47px;
+    background: yellow;
+    position: relative;
+    left: 200px;
+    bottom: 43px;
 }
