@@ -75,3 +75,10 @@
     left: 200px;
     bottom: 43px;
 }
+
+.container {
+    width: 100vw;
+    display: grid; 
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
