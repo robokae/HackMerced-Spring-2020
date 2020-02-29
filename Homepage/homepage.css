@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:#101010;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    margin:green;
+    margin: 0 auto;
+    background-color:black;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 20px;
+}
+
+.logo_container h1{
+    color:white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.Quote{
+    float: left;
+    height: 100%;
+}
+
+.Quote a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
