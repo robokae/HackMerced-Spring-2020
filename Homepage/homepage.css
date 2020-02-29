@@ -1,6 +1,40 @@
 /* Styling for the leaderboard container */
 .leaderboard_container {
-    
+    /* position: absolute;
+    width: 425px; */
+    height: 900px; 
+    /*left: 0px;*/
+    /* top: 120px;*/
+
+    padding-top: 20px;
+
+    background: #989898;
+}
+
+.lb_title {
+    /*position: absolute; */
+    height: 60px;
+    top: 150px;
+
+    text-align: center;
+
+    background: #555555;
+    border-radius: 15px;
+}
+
+.lb_title h2 {
+    padding-top: 10px;
+    font-family: 'Quicksand';
+}
+
+.lb_body {
+    height: 200px;
+    top: 240px;
+
+    margin-top: 20px;
+
+    background: #E5E5E5;
+    border-radius: 20px;
 }
 
 /* Styling for the feed container */
