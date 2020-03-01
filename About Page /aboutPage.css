@@ -20,6 +20,27 @@ body {
     position: relative; 
 }
 
+.developer_img {
+    border-radius: 50%;
+    max-width: 85%;
+    
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+}
+.dev_name{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Quicksand';
+}
+
+.dev_name h3 {
+    padding-top: 20px;
+}
 .navbar_img {
     max-width: 4.5%;
     border-radius: 50%;
@@ -131,4 +152,8 @@ body {
 
 .about_container {
     
+}
+
+.caption h1 {
+    text-align: center;
 }
