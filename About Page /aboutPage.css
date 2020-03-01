@@ -7,7 +7,7 @@ body {
     padding: 0; 
     width: 100%;
     position: relative; 
-    background-color: #989898;
+    background-color: #e5e5e5;
 }
 
 /* Styling for the leaderboard container */
@@ -125,5 +125,10 @@ body {
 
 .container {
     height: calc(100% - 89px); 
+    width: 100vw;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+.about_container {
     
 }
