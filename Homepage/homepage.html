@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="homepage.css">
     <link rel="stylesheet" type="text/css" href="../navbar.css">
 
-  <title>Homepage</title>
+  <title>Milestone | Homepage</title>
 </head>
 <body>
 
@@ -29,6 +29,7 @@
     
       <!-- <div class="profile_pic"></div>
       <div class="nav_button"></div> -->
+      <img class="navbar_img" src="../imgs/IMG_9411.jpg">
       <button class="hamburger_menu_button" onclick="show()">
         <i class="fas fa-bars"></i>
       </button>
@@ -55,9 +56,13 @@
           <h3>Leaderboard</h3>
         </div>
         <div class="lb_body">
-          <h3>For 30 min a day for a week</h3>
-          <h4>[1]</h4>
-          <img src="img/water.jpg" alt="Christian">
+          <h3>Run for 30 minutes a day for a week</h3>
+            <h4>
+              [1] <img class="lb_img" src="../imgs/IMG_9411.jpg" alt="Alex">  Alex H. 6/7 days </h4>
+            <h4>
+              [2] <img class="lb_img" src="../imgs/IMG_9412.jpg"alt="Christian"> Christian 4/7 days</h4>
+            <h4>
+              [3] <img class="lb_img" src="../imgs/IMG_9409.jpg" alt="Marty"> Marty 3/7 days</h4>
         </div>
       </div>
 
@@ -72,18 +77,35 @@
         </div>
 
         <div class="row">
-          <div class="user_post_container1"></div>
-          <div class="user_post_container2">
-            <div class="post2_pic"></div>
-            <div class="post2_capt"></div>
-          </div>
-          <div class="user_post_container3">
-            <div class="post3_pic"></div>
-            <div class="post3_capt"></div>
-          </div>
-          <div class="user_post_container4"></div>
+
+          <div class="user_post_container1">
+            <img class="newpost_alex_pic" src="../imgs/IMG_9411.jpg">
+            <input type="text" name="milestone_status" class="new_status" id="status" placeholder="Just did a thing!...">
+            
+            <button class="share_button">Share</button>
           </div>
 
+          <div class="user_post_container2"> <!--Marty's Venice Post-->
+            <img class="venice_img" src="../imgs/Venice.jpg">
+            <div class="post2_capt"></div>
+          </div>
+
+          <div class="user_post_container3"> <!--CJ's Mile Post-->
+            <img class="running_img" src="../imgs/Running.jpg">
+            <div class="post3_capt">
+              <h2> Mile 5 out of 7 </h2>
+              <h3>5 mins ago</h3>
+              <h4> 5 </h4>
+              <img class="user_cont3" src="../imgs/IMG_9412.jpg"alt="Christian">
+            </div>
+          </div>
+
+          <div class="user_post_container4"> <!--Hiking Post-->
+            <img class="hiking_img" src="../imgs/Hiking.jpg">
+          </div>
+
+
+        </div>
       </div>
 
 
