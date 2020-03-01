@@ -225,6 +225,35 @@ body {
     bottom: 70px;
 }
 
+.post3_capt h2 {
+    font-size: 92%;
+    position: relative;
+    top: 9px;
+    text-align: center;
+}
+
+.post3_capt h3 {
+    font-size: 80%;
+    text-align: left;
+    position: relative;
+    left: 58px;
+    top: 2px;
+}
+
+.post3_capt h4 {
+    font-size: 70%;
+    text-align: right;
+    position: relative;
+    right: 20px;
+    bottom: 13px;
+}
+
+.user_cont3 {
+    max-width: 16%;
+    border-radius: 50%;
+    text-align: left;
+}
+
 .hiking_img {
     border-radius: 10px;
     text-align: right;
