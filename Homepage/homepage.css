@@ -238,11 +238,19 @@ body {
 .post2_capt {
     background-color: #e5e5e5;
     border-radius: 10px;
-    text-align: right;
+    text-align: left;
     width: 270px;
     height: 99px;
     position: relative;
     left: 60px;
+}
+
+.venice_marty_img {
+    width: 16%;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .running_img {
