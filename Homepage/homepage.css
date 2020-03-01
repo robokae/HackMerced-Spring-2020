@@ -10,7 +10,7 @@
     height: 900px; 
     /*left: 0px;*/
     /* top: 120px;*/
-
+    color: white;
     padding-top: 20px;
 
     background: #989898;
@@ -27,7 +27,7 @@
     border-radius: 15px;
 }
 
-.lb_title h2 {
+.lb_title h3 {
     padding-top: 10px;
     font-family: 'Quicksand';
 }
