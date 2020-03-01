@@ -35,14 +35,38 @@ body {
 }
 
 /* Side Menu */
-.side_menu {
+#side_menu {
     position: absolute; 
-    /* display: none;  */
+    display: none; 
     top: 0px;
     right: -350px;
+    z-index: 5; 
     width: 350px; 
     background-color: #e5e5e5;
     height: 100vh;
+}
+
+#side_menu .active {
+    right: 350px;
+}
+
+.exit_menu_button {
+    font-size: 2.5rem;
+    background: transparent;
+    color: #555555;
+    opacity: 0.7;
+    border: none;
+    margin-left: 16px;
+    margin-top: 17px;
+}
+
+.exit_menu_button:hover {
+    transform: scale(1.1);
+    transition: transform 200ms;
+}
+
+.exit_menu_button:focus {
+    outline: none; 
 }
 
 .side_menu_section {
@@ -50,7 +74,6 @@ body {
     margin-bottom: 8px; 
     width: 40px;
     height: 5px; 
-    background-color: #000000;
 }
 
 .side_bar_links { 
@@ -209,7 +232,18 @@ body {
     max-height: 120px;
     position: relative;
     left: 130px;
-    top: 10px;
+    top: 25px;
+}
+
+.post4_capt {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    text-align: right;
+    width: 255px;
+    height: 50px;
+    position: relative;
+    left: 130px;
+    top: 25px;
 }
 
 
@@ -218,6 +252,7 @@ body {
     height: calc(100vh -89px);
     background: #989998;
     color: #ffffff;
+    z-index: 1;
 }
 
 .goals_title {
@@ -232,18 +267,52 @@ body {
     background: #e5e5e5;
     margin-top: 20px; 
     border-radius: 10px; 
-    padding: 10px; 
+    padding: 10px 5px; 
+    margin-left: 5px;
     color: #555555;
     
 }
 
-.goals[type="checkbox"] {
+.goals input {
     font-size: 16px;
+    opacity: 0;  
+}
+
+.goals .box {
+    position: absolute;
+    border: 1px solid #555555;
+    border-radius: 5px; 
+    height: 20px;
+    width: 20px; 
+    left: 30px; 
+
+}
+
+.goal { 
+    display: inline-block; 
+    margin-left: 20px; 
+    font-size: 1rem;
+}
+
+.add_goal {
+    background-color: #555555;
 }
 
 .add_goal input {
-    border: none; 
+    width: 97%;
+    opacity: 1;     
+    border: none;  
+    /* margin-top: 20px;  */
+    margin-left: 5px;
+    margin-right: 16px;
+    /* padding-top: -5px; */
     border-color: transparent;
-    border-bottom: 1px solid #555555;
-    background-color: #e5e5e5;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: #555555;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.add_goal input:focus {
+    outline: none;
 }
