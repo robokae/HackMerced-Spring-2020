@@ -104,10 +104,10 @@ body {
     transition: transform 200ms; 
 }
 
-.side_bar_links a:focus {
+/* .side_bar_links a:focus {
     transform: translateY(2px);
     transition: transform 200ms ease-in-out;
-}
+} */
 
 .leaderboard_container {
     /* position: absolute;
@@ -203,6 +203,7 @@ body {
 .new_status {
     max-width: 100%;
     background-color: #c8c8c8;
+    border: 0px;
 }
 .new_status input{
     width: 97%;
@@ -347,11 +348,12 @@ body {
 
 .goals input {
     font-size: 16px;
-    opacity: 0;  
+    opacity: 0; 
+    cursor: pointer; 
 }
 
 .goals input:focus {
-    background-color:  
+    background-color: #555555; 
 }
 
 .goals .box {
