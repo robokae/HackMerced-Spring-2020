@@ -32,17 +32,24 @@
         <i class="fas fa-bars"></i>
       </button>
   </nav>
-  <!--Navbar-->
+
+  <!-- Side Menu -->
+  <div class="side_menu">
+    <div class="side_bar_links">
+      <a href="#">About</a>
+      <a href="#">Settings</a>
+      <a href="#">Help</a>
+      <a href="#">Sign Out</a>
+    </div>
+  </div>
+
 
 
   <!-- Page container -->
   <div class="container-fluid">
     <div class="row">
-
-
-
       <div class="leaderboard_container col-3">
-        <div class="lb_title">
+        <div class="lb_title py-2">
           <h3>Leaderboard</h3>
         </div>
         <div class="lb_body">
@@ -51,8 +58,6 @@
           <img src="img/water.jpg" alt="Christian">
         </div>
       </div>
-
-
 
 
       <div class="feed_container col-6">
@@ -73,8 +78,45 @@
       </div>
 
 
-
       <div class="goals_container col-3">
+        <div class="goals_title py-2">
+          <h3>Goals</h3>
+        </div>
+
+        <div class="goals">
+          <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
+            <span class="box"></span>
+            <span class="goal">Read two books a month</span>
+        </div>
+
+        <div class="goals">
+          <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
+            <span class="box"></span>
+            <span class="goal">Finish work project</span>
+        </div>
+
+        <div class="goals">
+          <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
+            <span class="box"></span>
+            <span class="goal">Run 5k</span>
+        </div>
+
+        <div class="goals">
+          <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
+            <span class="box"></span>
+            <span class="goal">Do yoga daily</span>
+        </div>
+
+        <div class="goals">
+          <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
+            <span class="box"></span>
+            <span class="goal">Drink 8 cups of water a day</span>
+        </div>
+
+        <div class="goals add_goal">
+          <span class="box"></span>
+          <input type="text" name="user_goal" id="user_goal" placeholder="Add goal">
+        </div>
 
       </div>
     </div>

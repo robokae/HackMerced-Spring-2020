@@ -1,35 +1,97 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+    position: relative; 
+}
+
 /* Styling for the leaderboard container */
 .container-fluid { 
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color: #555555;
 }
 
+.hamburger_menu_button {
+    font-size: 2.5rem; 
+    background: transparent; 
+    color: #ffffff;
+    opacity: 0.7;
+    border: none; 
+}
+
+.hamburger_menu_button:hover {
+    transform: scale(1.1);
+    transition: transform 200ms;
+}
+
+.hamburger_menu_button:focus {
+    outline: none; 
+}
+
+/* Side Menu */
+.side_menu {
+    position: absolute; 
+    /* display: none;  */
+    top: 0px;
+    right: -350px;
+    width: 350px; 
+    background-color: #e5e5e5;
+    height: 100vh;
+}
+
+.side_menu_section {
+    display: block; 
+    margin-bottom: 8px; 
+    width: 40px;
+    height: 5px; 
+    background-color: #000000;
+}
+
+.side_bar_links { 
+    /* display: grid; 
+    grid-template-columns: 1fr;  */
+    text-align: center; 
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.side_bar_links a {
+    display: block;
+    margin-bottom: 60px; 
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 1.75rem; 
+    font-weight: 700;
+    color: #555555;
+    opacity: 70%;  
+    text-decoration: none;
+}
+
+.side_bar_links a:hover {
+    transform: scale(1.1);
+    transition: transform 200ms; 
+}
+
 .leaderboard_container {
     /* position: absolute;
     width: 425px; */
-    height: 900px; 
+    height: calc(100vh - 89px); 
     /*left: 0px;*/
     /* top: 120px;*/
     color: white;
-    padding-top: 20px;
-
     background: #989898;
 }
 
 .lb_title {
-    /*position: absolute; */
-    height: 60px;
-    top: 150px;
-
+    margin-top: 20px; 
     text-align: center;
-
     background: #555555;
-    border-radius: 15px;
+    border-radius: 10px; 
 }
 
-.lb_title h3 {
-    padding-top: 10px;
+.lb_title h3 {   
     font-family: 'Quicksand';
+    text-align: center;
 }
 
 .lb_body {
@@ -62,7 +124,8 @@
     background-color: #e5e5e5;
     border-radius: 10px;
     padding: 25px;
-    margin: 30px; 
+    margin: 30px;
+    margin-top: 20px;  
     position: relative; 
 }
 
@@ -78,5 +141,35 @@
 
 /* Styling for the goals container */
 .goals_container {
+    height: calc(100vh -89px);
+    background: #989998;
+    color: #ffffff;
+}
 
+.goals_title {
+    background: #555555;
+    margin-top: 20px; 
+    border-radius: 10px;
+    padding: 5px;  
+    text-align: center; 
+}
+
+.goals {
+    background: #e5e5e5;
+    margin-top: 20px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    color: #555555;
+    
+}
+
+.goals[type="checkbox"] {
+    font-size: 16px;
+}
+
+.add_goal input {
+    border: none; 
+    border-color: transparent;
+    border-bottom: 1px solid #555555;
+    background-color: #e5e5e5;
 }
