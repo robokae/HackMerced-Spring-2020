@@ -3,6 +3,7 @@ body {
     padding: 0; 
     width: 100%;
     position: relative; 
+    background-color: #e5e5e5;
 }
 
 /* Styling for the leaderboard container */
