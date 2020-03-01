@@ -31,17 +31,20 @@ body {
 /* Side Menu */
 #side_menu {
     position: absolute; 
-    display: none; 
+    /* display: none;  */
     top: 0px;
-    right: -350px;
+    right: -380px;
     z-index: 5; 
-    width: 350px; 
-    background-color: #e5e5e5;
+    width: 380px; 
+    /* background-color: #e5e5e5; */
+    background-color: #989898;
     height: 100vh;
+    transition: right 500ms;
 }
 
-#side_menu .active {
-    right: 350px;
+#side_menu.active {
+    right: 0px;
+    transition: right 500ms;
 }
 
 .exit_menu_button {
@@ -93,6 +96,11 @@ body {
 .side_bar_links a:hover {
     transform: scale(1.1);
     transition: transform 200ms; 
+}
+
+.side_bar_links a:focus {
+    transform: translateY(2px);
+    transition: transform 200ms ease-in-out;
 }
 
 .leaderboard_container {
@@ -255,6 +263,10 @@ body {
 .goals input {
     font-size: 16px;
     opacity: 0;  
+}
+
+.goals input:focus {
+    background-color:  
 }
 
 .goals .box {
