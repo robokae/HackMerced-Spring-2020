@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0; 
     padding: 0; 
@@ -39,10 +43,11 @@ body {
     position: absolute; 
     display: none; 
     top: 0px;
-    right: -350px;
+    right: -385px;
     z-index: 5; 
-    width: 350px; 
-    background-color: #e5e5e5;
+    width: 385px; 
+    /* background-color: #e5e5e5; */
+    background-color: #989898;
     height: 100vh;
 }
 
