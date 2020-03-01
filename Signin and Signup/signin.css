@@ -1,7 +1,12 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0; 
     padding: 0; 
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     position: relative; 
     background-color: #e5e5e5;
 }
@@ -40,9 +45,9 @@ body {
     position: absolute; 
     /* display: none;  */
     top: 0px;
-    right: -380px;
+    right: -385px;
     z-index: 5; 
-    width: 380px; 
+    width: 385px; 
     /* background-color: #e5e5e5; */
     background-color: #989898;
     height: 100vh;
@@ -103,4 +108,14 @@ body {
 .side_bar_links a:hover {
     transform: scale(1.1);
     transition: transform 200ms; 
+}
+
+.container {
+    width: 80vh;
+    height: 70vh;
+    background-color: #c5c5c5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
