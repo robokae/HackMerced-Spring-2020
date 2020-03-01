@@ -148,3 +148,7 @@ body {
     height: calc(100% - 89px); 
     
 }
+
+.caption h1 {
+    text-align: center;
+}
