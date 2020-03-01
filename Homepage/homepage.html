@@ -12,6 +12,7 @@
     
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/857afb1854.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
     <!-- Custom Style Sheet -->
     <link rel="stylesheet" type="text/css" href="homepage.css">
     <link rel="stylesheet" type="text/css" href="../navbar.css">
@@ -28,13 +29,16 @@
     
       <!-- <div class="profile_pic"></div>
       <div class="nav_button"></div> -->
-      <button class="hamburger_menu_button">
+      <button class="hamburger_menu_button" onclick="show()">
         <i class="fas fa-bars"></i>
       </button>
   </nav>
 
   <!-- Side Menu -->
-  <div class="side_menu">
+  <div id="side_menu">
+    <button class="exit_menu_button">
+      <i class="fas fa-times"></i>
+    </button>
     <div class="side_bar_links">
       <a href="#">About</a>
       <a href="#">Settings</a>
@@ -42,8 +46,6 @@
       <a href="#">Sign Out</a>
     </div>
   </div>
-
-
 
   <!-- Page container -->
   <div class="container-fluid">
@@ -87,35 +89,34 @@
         <div class="goals">
           <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
             <span class="box"></span>
-            <span class="goal">Read two books a month</span>
+            <div class="goal">Read two books a month</div>
         </div>
 
         <div class="goals">
           <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
             <span class="box"></span>
-            <span class="goal">Finish work project</span>
+            <div class="goal">Finish work project</div>
         </div>
 
         <div class="goals">
           <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
             <span class="box"></span>
-            <span class="goal">Run 5k</span>
+            <div class="goal">Run 5k</div>
         </div>
 
         <div class="goals">
           <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
             <span class="box"></span>
-            <span class="goal">Do yoga daily</span>
+            <div class="goal">Do yoga daily</div>
         </div>
 
         <div class="goals">
           <input type="checkbox" name="goal_checkbox" id="goal_checkbox">
             <span class="box"></span>
-            <span class="goal">Drink 8 cups of water a day</span>
+            <div class="goal">Drink more water</div>
         </div>
 
         <div class="goals add_goal">
-          <span class="box"></span>
           <input type="text" name="user_goal" id="user_goal" placeholder="Add goal">
         </div>
 
@@ -123,6 +124,7 @@
     </div>
   </div>
 
+  
   <!-- Bootstrap JavaScript Frameworks -->
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
