@@ -250,6 +250,15 @@ body {
     left: 60px;
 }
 
+.user_cont2 {
+    max-width: 16%;
+    border-radius: 50%;
+    text-align: left;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
 .post2_capt {
     background-color: #e5e5e5;
     border-radius: 10px;
@@ -260,6 +269,29 @@ body {
     left: 60px;
 }
 
+.post2_capt h2 {
+    font-size: 92%;
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.post2_capt h3 {
+    font-size: 80%;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    top: 43px;
+}
+
+.post2_capt h4 {
+    font-size: 70%;
+    text-align: right;
+    position: relative;
+    right: 20px;
+    top: 33px;
+}
+
 .venice_marty_img {
     width: 16%;
     border-radius: 50%;
@@ -267,6 +299,38 @@ body {
     margin-top: 10px;
     margin-left: 10px;
 }
+
+.heart3 {
+    background-color: red;
+    display: inline-block;
+    height: 6px;
+    margin: 0 10px;
+    position: relative;
+    bottom: 4px;
+    left:198px;
+    transform: rotate(-45deg);
+    width: 6px;
+  }
+  
+  .heart3:before,
+  .heart3:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 6px;
+    position: absolute;
+    width: 6px;
+  }
+  
+  .heart3:before {
+    top: -3px;
+    left: 0;
+  }
+  
+  .heart3:after {
+    left: 3px;
+    top: 0;
+  }
 
 .running_img {
     border-radius: 10px;
