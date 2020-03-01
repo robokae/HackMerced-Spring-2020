@@ -33,13 +33,19 @@
 }
 
 .lb_body {
-    height: 200px;
+    height: 300px;
     top: 240px;
 
     margin-top: 20px;
 
     background: #E5E5E5;
     border-radius: 20px;
+}
+
+.lb_body h3 {
+    .lb_body h3 {
+        
+    }
 }
 
 /* Styling for the feed container */
