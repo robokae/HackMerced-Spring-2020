@@ -255,7 +255,7 @@ body {
     border-radius: 50%;
     text-align: left;
     position: relative;
-    bottom: 40px;
+    bottom: 90px;
     left: 10px;
 }
 
@@ -272,8 +272,10 @@ body {
 .post2_capt h2 {
     font-size: 92%;
     position: relative;
-    top: 35px;
-    text-align: center;
+    top: 15px;
+    text-align: left;
+    margin-left: 60px;
+    padding-right: 10px;
 }
 
 .post2_capt h3 {
@@ -281,7 +283,7 @@ body {
     text-align: left;
     position: relative;
     left: 100px;
-    top: 43px;
+    top: 15px;
 }
 
 .post2_capt h4 {
@@ -289,7 +291,7 @@ body {
     text-align: right;
     position: relative;
     right: 20px;
-    top: 33px;
+    top: 2px;
 }
 
 .venice_marty_img {
@@ -306,7 +308,7 @@ body {
     height: 6px;
     margin: 0 10px;
     position: relative;
-    bottom: 4px;
+    bottom: 35px;
     left:198px;
     transform: rotate(-45deg);
     width: 6px;
