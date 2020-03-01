@@ -159,4 +159,15 @@ body {
     color: #555555;
 }
 
+.sign_out_prompt a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.sign_out_prompt a:focus {
+    outline: none;
+    transform: translateY(2px);
+    transition: transform 200ms;
+}
+
 
