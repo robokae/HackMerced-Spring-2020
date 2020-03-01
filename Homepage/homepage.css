@@ -178,11 +178,46 @@ body {
 .user_post_container1 {
     background-color: #e5e5e5;
     border-radius: 10px;
-    text-align: left;
+    /*text-align: left;*/
     width: 300px;
     height: 179px;
     position: relative;
     left: 30px;
+}
+
+.newpost_alex_pic {
+    border-radius: 50%;
+    max-width: 15%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.new_status {
+    max-width: 100%;
+    background-color: #c8c8c8;
+}
+.new_status input{
+    width: 97%;
+    opacity: 0;     
+    border: transparent;  
+    /* margin-top: 20px;  */
+    margin-left: 5px;
+    margin-right: 16px;
+    /* padding-top: -5px; */
+    /* border-color: transparent; */
+    background-color: #c8c8c8;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.share_button {
+    max-width: 70px;
+    max-height: 40px;
+    background-color: #ff9a3d;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+
 }
 
 .venice_img {
