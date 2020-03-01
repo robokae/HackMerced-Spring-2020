@@ -261,13 +261,78 @@ body {
     bottom: 70px;
 }
 
+.post3_capt h2 {
+    font-size: 92%;
+    position: relative;
+    top: 9px;
+    text-align: center;
+}
+
+.post3_capt h3 {
+    font-size: 80%;
+    text-align: left;
+    position: relative;
+    left: 58px;
+    top: 2px;
+}
+
+.post3_capt h4 {
+    font-size: 70%;
+    text-align: right;
+    position: relative;
+    right: 20px;
+    bottom: 13px;
+}
+
+.user_cont3 {
+    max-width: 16%;
+    border-radius: 50%;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 6px;
+    margin: 0 10px;
+    position: relative;
+    bottom: 45.5px;
+    left: 147px;
+    transform: rotate(-45deg);
+    width: 6px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 6px;
+    position: absolute;
+    width: 6px;
+  }
+  
+  .heart:before {
+    top: -3px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 3px;
+    top: 0;
+  }
+
+
 .hiking_img {
     border-radius: 10px;
     text-align: right;
-    max-width: 255px;
+    max-width: 300px;
     max-height: 120px;
     position: relative;
-    left: 130px;
+    left: 150px;
     top: 25px;
 }
 
