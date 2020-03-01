@@ -7,20 +7,9 @@ body {
     padding: 0; 
     width: 100vw;
     height: 100vh;
-    position: relative; 
     background-color: #e5e5e5;
-}
-
-/* Styling for the leaderboard container */
-.container-fluid { 
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    color: #555555;
-}
-
-.navbar_img {
-    max-width: 4.5%;
-    border-radius: 50%;
-    margin-right: 25px;
+    color: #989898;
 }
 
 .hamburger_menu_button {
@@ -111,11 +100,54 @@ body {
 }
 
 .container {
-    width: 80vh;
+    width: 100vw;
+    height: calc(100vh - 89px);
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.sign_out_container {
+    position: absolute;
+    width: 65vw;
     height: 70vh;
     background-color: #c5c5c5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    color: #555555;
+}
+
+.sign_out_prompt {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 60%;
+    width: 70%;
+    text-align: center;
+    /* display: flex; 
+    flex-direction: column; */
 }
+
+.sign_out_prompt h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.sign_out_prompt p {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.sign_out_prompt button {
+    border: none; 
+    border-radius: 10px; 
+    font-size: 2rem; 
+    padding: 10px 30px;
+    background-color: #ff9a3d;
+    color: #555555;
+}
+
+
