@@ -53,6 +53,10 @@
     line-height: 1.6;
 }
 
+.lb_body img {
+    scale: 50%;
+}
+
 /* Styling for the feed container */
 .quote_container {
     background-color: #e5e5e5;
